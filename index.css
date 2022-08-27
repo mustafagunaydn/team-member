@@ -1,0 +1,282 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    flex-direction: column;
+    margin-left: 5%;
+    font-size: 1.3vw;
+    background-color: #f4f4f4;
+}
+
+header {
+    padding-top: 2%;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.head1 {
+    text-align: center;
+    width: 50%;
+}
+
+.head2 {
+    width: 50%;
+    padding-right: 10%;
+}
+
+.combodiv {
+    margin-top: 5%;
+    margin-right: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.img1,
+.img2,
+.img3,
+.img4,
+.img5,
+.img6 {
+    display: flex;
+    flex-wrap: wrap;
+    width: 33%;
+    height: 15%;
+}
+
+
+.div1,
+.div3,
+.div4,
+.div6 {
+    width: 75%;
+}
+
+.div2,
+.div5 {
+    width: 75%;
+    margin-top: 10%;
+    padding-top: 1%;
+}
+
+.div1 img {
+    width: 80%;
+    margin-bottom: 3%;
+    float: right;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px, rgb(51, 51, 51) 0px 0px 0px 3px;
+    transition: 1s;
+}
+
+.div1 img:hover {
+    transform: scale(110%);
+}
+
+.div1 p {
+    margin-left: 20%;
+}
+
+.line1 p {
+    float: left;
+    padding-top: 75%;
+    margin-top: 6%;
+    transform: rotate(90deg);
+    font-size: 0.8vw;
+}
+
+/* İKİNCİ RESİM BAŞLANGICI */
+.div2 img {
+    width: 80%;
+    margin-bottom: 3%;
+    float: right;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px, rgb(51, 51, 51) 0px 0px 0px 3px;
+    transition: 1s;
+}
+
+.div2 img:hover {
+    transform: scale(110%);
+}
+
+.div2 p {
+    margin-left: 20%;
+}
+
+.line2 p {
+    padding-top: 60%;
+    margin-top: 67%;
+    font-size: 0.8vw;
+    transform: rotate(90deg);
+}
+
+/* ÜÇÜNCÜ RESİM BAŞLANGICI */
+.div3 img {
+    width: 80%;
+    margin-bottom: 3%;
+    float: right;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px, rgb(51, 51, 51) 0px 0px 0px 3px;
+    transition: 1s;
+}
+
+.div3 img:hover {
+    transform: scale(110%);
+}
+
+.div3 p {
+    margin-left: 20%;
+}
+
+.line3 p {
+    margin-top: 7%;
+    padding-top: 60%;
+    transform: rotate(90deg);
+    font-size: 0.8vw;
+}
+
+/* DÖRDÜNCÜ RESMİN BAŞLANGICI                                                    */
+.div4 img {
+    width: 80%;
+    margin-bottom: 3%;
+    float: right;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px, rgb(51, 51, 51) 0px 0px 0px 3px;
+    transition: 1s;
+}
+
+.div4 img:hover {
+    transform: scale(110%);
+}
+
+.div4 p {
+    margin-left: 20%;
+}
+
+.line4 p {
+    padding-top: 75%;
+    margin-top: 10%;
+    transform: rotate(90deg);
+    font-size: 0.8vw;
+}
+
+/* BEŞİNCİ RESMİN BAŞLANGICI */
+
+.div5 img {
+    width: 80%;
+    margin-bottom: 3%;
+    float: right;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    transition: 1s;
+}
+
+.div5 img:hover {
+    transform: scale(110%);
+}
+
+.div5 p {
+    margin-left: 20%;
+}
+
+.line5 p {
+    padding-top: 65%;
+    margin-top: 70%;
+    font-size: 0.8vw;
+    transform: rotate(90deg);
+}
+
+/* ALTINCI RESMİN BAŞLANGICI                                                */
+
+.div6 img {
+    width: 80%;
+    margin-bottom: 3%;
+    float: right;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    transition: 1s;
+}
+
+.div6 img:hover {
+    transform: scale(110%);
+}
+
+.div6 p {
+    margin-left: 20%;
+}
+
+.line6 p {
+    padding-top: 65%;
+    margin-top: 7%;
+    font-size: 0.8vw;
+    transform: rotate(90deg);
+}
+
+@media only screen and (max-width :90px) {
+    body {
+        margin: 5% 10% 2% 10%;
+        font-size: 2vw;
+    }
+
+    header {
+        flex-wrap: nowrap;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .head1 {
+        text-align: center;
+        width: 100%;
+    }
+
+    .head2 {
+        padding-left: 7%;
+        text-align: left;
+        width: 100%;
+    }
+
+    .img1i .img2,
+    .img3,
+    .img4,
+    .img5,
+    .img6 {
+        width: 50%;
+        margin-bottom: 10%;
+    }
+
+    .div1,
+    .div3,
+    .div5 {
+        width: 75%;
+    }
+
+    .div2,
+    .div4 {
+        width: 75%;
+        margin-top: 10%;
+        padding-bottom: 1%;
+    }
+
+    .div6 {
+        margin: top 20%;
+        ;
+    }
+
+    .line1 p,
+    .line2 p,
+    .line3 p,
+    .line4 p,
+    .line5 p,
+    .line6 p {
+        font-size: 1vw;
+    }
+
+    .line4 p {
+        margin-top: 55%;
+    }
+
+    .line6 p {
+        margin-top: 130%;
+    }
+
+
+}
